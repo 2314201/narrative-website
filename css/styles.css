@@ -229,7 +229,6 @@ body .options .option .label .info .main {
  * {
   box-sizing: border-box; }
 
-
 body {
   width: 100vw;
   height: 100vh;
@@ -300,13 +299,12 @@ h3 {
 @media screen and (max-width: 1200px) {
   body {
     font-size: 14px; } }
-    
 
 
  /* end NAVIGATION  */
 
 
- /* FEATURE POST */
+ /* FEATURE POST https://gist.github.com/ccharnock1/ */
 
 .featured-background {
   background-color: #000000;
