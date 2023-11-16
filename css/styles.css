@@ -89,7 +89,7 @@ body .options {
   flex-direction: row;
   align-items: stretch;
   overflow: hidden;
-  min-width: 600px;
+  min-width: 800px;
   max-width: 900px;
   width: calc(100% - 100px);
   height: 400px;
@@ -142,9 +142,10 @@ body .options .option.active .shadow {
 }
 
 body .options .option.active .label {
-  bottom: 20px;
+  bottom: 340px;
   left: 20px;
 }
+
 
 body .options .option.active .label .info > div {
   left: 45px;
@@ -200,18 +201,26 @@ body .options .option .label .icon {
   color: var(--defaultBackground);
 }
 
+
 body .options .option .label .info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
   color: white;
-  white-space: pre;
+  position: absolute;
+  font-size: 0.90rem;
 }
 
 body .options .option .label .info > div {
-  position: absolute;
-  transition: 0.5s cubic-bezier(0.05, 0.061, 0.41, 0.95) opacity 0.5s ease-out;
+  position: top;
+   justify-content: left;
+  margin-left: 40px;
+
+   margin-bottom: 15px;
+  transition: 0.4s cubic-bezier(0.05, 0.061, 0.41, 0.95) opacity 0.5s ease-out;
 }
 
 body .options .option .label .info .main {
