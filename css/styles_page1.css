@@ -51,11 +51,16 @@ z-index: -1; }
   transition: all 0.3s ease; }
 
 .contents1 {
-padding: 4em;
 margin: 10;
 font-size: 1.2rem;
 font-family :'Frank Ruhl Libre', sans-serif; 
-max-width: 900px
+}
+
+.spacer {
+  padding: 1rem;
+}
+.bigspacer {
+  padding: 1.2rem;
 }
 
 .contents img {
