@@ -1,6 +1,7 @@
 /* NAVIGATION https://github.com/hakimel/css/tree/master/progress-nav */
 
 
+
 body {
 width: 100vw;
 height: 100vh;
@@ -11,6 +12,10 @@ padding: 1em 2em 2em 17em;
 font-size: 10px;
 line-height: 1.6;
 font-family: 'Roboto', sans-serif; }
+
+element.style {
+  padding-top: 0px;
+  padding-right: 0px;}
 
 .toc {
 position: fixed;
@@ -48,9 +53,11 @@ z-index: -1; }
 .contents1 {
 padding: 4em;
 margin: 10;
+font-size: 1.2rem;
+font-family :'Frank Ruhl Libre', sans-serif; 
 max-width: 900px
-font-size : 1.2em;
-font-family: 'Frank Ruhl Libre', sans-serif; }
+}
+
 .contents img {
   max-width: 100%; }
 .contents .code-block {
@@ -83,6 +90,8 @@ body {
 
 .stylesheet
 
+
+
 body {
 display: flex;
 flex-direction: row;
@@ -91,6 +100,7 @@ align-items: center;
 overflow: hidden;
 height: 100vh;
 font-family: "Times New Roman", Times, serif;
+
 }
 
 body .options {
@@ -103,6 +113,8 @@ min-width: 670px;
 max-width: 950px;
 width: calc(100% - 100px);
 height: 400px;
+padding-top: 0px;
+  padding-right: 0px;
 }
 
 body .options .option {
