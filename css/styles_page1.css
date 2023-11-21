@@ -97,8 +97,9 @@ display: flex;
 flex-direction: row;
 align-items: stretch;
 overflow: hidden;
-min-width: 800px;
-max-width: 900px;
+overflow: hidden;
+min-width: 670px;
+max-width: 950px;
 width: calc(100% - 100px);
 height: 400px;
 }
