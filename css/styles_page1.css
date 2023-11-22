@@ -299,6 +299,11 @@ flex: 0 0 auto;
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
+.nav-title {
+  padding-right: 6rem !important;
+  padding-left: 1rem !important;
+}
+
 /*
 * Blog name and description
 */
