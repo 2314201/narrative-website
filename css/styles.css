@@ -183,10 +183,42 @@ address {
 
 ol,
 ul {
-  padding-left: 2rem;
+  padding-left: 20rem;
+
 }
 
-ol,
+/* Center the ordered list */
+.center-container {
+  
+ }
+
+/* Style the ordered list */
+ol.custom-list {
+  
+  list-style-type: none;
+  counter-reset: custom-counter;
+  padding: 0;
+  margin-left: 60px;
+  
+ }
+
+ol.custom-list li {
+  counter-increment: custom-counter;
+  margin-bottom: 10px;
+  
+  position: relative;
+}
+
+ol.custom-list li:before {
+  content: counter(custom-counter) ". ";
+  font-size: 1.5em;
+ 
+  left: -2em;
+  top: 0;
+  font-weight: bold;
+}
+
+
 ul,
 dl {
   margin-top: 0;
