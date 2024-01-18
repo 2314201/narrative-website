@@ -80,6 +80,60 @@
 
 
 
+/*Portfolio styling from Freelancer template*/
+
+.portfolio .portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.portfolio .portfolio-item .portfolio-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgba(26, 188, 156, 0.9);
+}
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 1;
+}
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+  font-size: 1.5rem;
+}
+
+.portfolio-modal .btn-close {
+  color: #1abc9c;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.portfolio-modal .portfolio-modal-title {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+@media (min-width: 992px) {
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+/*End of portfolio styling from Freelancer template*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Timeline styling from Agency template*/
@@ -8058,6 +8112,10 @@ textarea.form-control-lg {
   line-height: 1.5 !important;
 }
 
+.text-center {
+  text-align: center !important;
+}
+
 .lh-lg {
   line-height: 2 !important;
 }
@@ -11829,9 +11887,7 @@ body {
   margin-bottom: 5rem;
 }
 
-.projects-section {
-  padding: 1rem 0;
-}
+
 .projects-section .featured-text {
   padding: 2rem;
 }
