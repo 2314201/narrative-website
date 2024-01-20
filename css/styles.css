@@ -12,6 +12,7 @@
  */
 :root {
   --bs-blue: #0d6efd;
+  --bs-reto-green: #82713D;
   --bs-indigo: #6610f2;
   --bs-purple: #7464a1;
   --bs-pink: #d63384;
@@ -8302,7 +8303,7 @@ textarea.form-control-lg {
 
 .bg-black {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-black-rgb)) !important;
 }
 
 .bg-white {
